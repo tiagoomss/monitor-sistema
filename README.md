@@ -69,6 +69,7 @@ Adicionar monitoramento de disco
 Criar versão com watch ou loop
 
 📁 Estrutura do Repositório
+
 monitor-resource/
 ├── monitor.sh
 
