@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "CPU:"
-top -bn1 | grep "Cpu(s)"
+top -bn1 | grep -Ei "cpu|%cpu"
 
+echo ""
 echo "Memória:"
-free -m
+free -h
